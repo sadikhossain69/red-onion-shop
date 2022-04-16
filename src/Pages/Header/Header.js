@@ -3,6 +3,7 @@ import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import logo2 from '../../Photos/logo2.png'
 import { Link } from "react-router-dom";
+import { BsCart2 } from 'react-icons/bs'
 
 const Header = () => {
   return (
@@ -22,6 +23,7 @@ const Header = () => {
               <Nav.Link style={{display: 'none'}} href="#pricing">Pricing</Nav.Link>
             </Nav>
             <Nav>
+              <span className="me-3 shopping-cart-icon" ><BsCart2/></span>
               <Link to='/login' >Login</Link>
               <Link className="ms-3" to='/register' >Register</Link>
             </Nav>
