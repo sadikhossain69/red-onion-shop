@@ -23,9 +23,9 @@ const Header = () => {
               <Nav.Link style={{display: 'none'}} href="#pricing">Pricing</Nav.Link>
             </Nav>
             <Nav>
-              <span className="me-3 shopping-cart-icon" ><BsCart2/></span>
-              <Link to='/login' >Login</Link>
-              <Link className="ms-3" to='/register' >Register</Link>
+              <span className="mx-3 shopping-cart-icon" ><BsCart2/></span>
+              <Link className="mx-3 login-button" to='/login' >Login</Link>
+              <Link className="mx-3 signup-button" to='/register' >Sign Up</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
